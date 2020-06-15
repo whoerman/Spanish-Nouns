@@ -34,7 +34,6 @@ const CountdownTimer = () => {
             </CountdownCircleTimer>
           </div>
         </div>
-      );
         </>
       );
     }

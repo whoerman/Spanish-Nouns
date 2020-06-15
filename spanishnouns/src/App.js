@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import CountdownTimer from "../src/components/Countdown/CountdownTimer"
 import Header from "../src/components/Header/Header"
+import NounGenderQuiz from "../src/quizzes/noungenderquiz/NounGenderQuiz"
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Header/>
-    <CountdownTimer/>
+    <NounGenderQuiz/>
     </>
   )
 }

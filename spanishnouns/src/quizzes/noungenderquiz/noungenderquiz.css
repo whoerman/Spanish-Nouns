@@ -1,0 +1,54 @@
+.quiz-wrapper {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nounRow {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: .5rem;
+    font-size: 3rem
+}
+
+.englishRow {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+    margin: .5rem;
+}
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.scoreRow {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.choiceButton {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: "Montserrat";
+    font-size: 3rem;  
+    background-color:#dadada ;
+}
+
+.SpanishNoun {
+    font-family: "Montserrat";text-align: center;
+    font-size: 4rem;
+    margin: 0rem;
+    background-color:#dadada ;
+}
