@@ -1,0 +1,14 @@
+.headerwrapper {
+    background-color: #dadada;
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 1rem;
+  }
+
+  .headertext {
+      margin-left: 1rem;
+  }

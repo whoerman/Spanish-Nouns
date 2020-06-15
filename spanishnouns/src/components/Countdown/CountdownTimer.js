@@ -1,10 +1,10 @@
 import React from 'react';
-import '../components/countdowntimer.css';
+import '../Countdown/countdowntimer.css';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
  
 const CountdownTimer = () => {
 
-    const timerTotal = 5;
+    const timerTotal = 10;
 
     const renderTime = ({ remainingTime }) => {
         if (remainingTime === 0) {
@@ -13,9 +13,9 @@ const CountdownTimer = () => {
       
         return (
           <div className="timer">
-            <div className="text">Remaining</div>
-            <div className="value">{remainingTime}</div>
-            <div className="text">seconds</div>
+            <div className="timertext">Remaining</div>
+            <div className="timervalue">{remainingTime}</div>
+            <div className="timertext">seconds</div>
           </div>
         );
       };
@@ -23,9 +23,6 @@ const CountdownTimer = () => {
       return (
         <>
         <div className="App">
-          {/* <h1>
-            Countdown Circle Timer React Component
-          </h1> */}
           <div className="timer-wrapper">
             <CountdownCircleTimer
               isPlaying
@@ -36,10 +33,6 @@ const CountdownTimer = () => {
               {renderTime}
             </CountdownCircleTimer>
           </div>
-          {/* <p className="info">
-            Change component properties in the code filed on the right to try
-            difference functionalities
-          </p> */}
         </div>
       );
         </>

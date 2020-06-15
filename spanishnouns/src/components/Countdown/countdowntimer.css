@@ -1,12 +1,9 @@
-h1 {
-    font-family: "Roboto";
-    text-align: center;
-    margin-bottom: 40px;
-  }
+
   
   .timer-wrapper {
     display: flex;
     justify-content: center;
+    margin: 1rem;
   }
   
   .timer {
@@ -16,12 +13,12 @@ h1 {
     align-items: center;
   }
   
-  .text {
+  .timertext {
     color: #aaa;
   }
   
-  .value {
-    font-size: 40px;
+  .timervalue {
+    font-size: 4rem;
   }
   
   .info {
