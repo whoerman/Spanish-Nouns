@@ -12,7 +12,8 @@ const NounGenderQuiz = () => {
 
     const selectGender = genderSelected => {
          setSelectedGender(genderSelected);
-         console.log(genderSelected.target.value)
+         let genderChoice = genderSelected.target.value;
+         console.log(genderChoice)
     }
 
     const spanishNoun = "Sombrero";
@@ -23,6 +24,7 @@ const NounGenderQuiz = () => {
     return (
         <Container>
         <div className="quiz-wrapper">
+        <h5 className="toptext text-center">Choose the Gender:</h5>
         <Row className="buttonRow">
         <Button variant="success" as="button" value="el" className="choiceButton" onClick={selectGender}>el</Button>
         <Button variant="success" as="button" value="la" className="choiceButton" onClick={selectGender}>la</Button>
